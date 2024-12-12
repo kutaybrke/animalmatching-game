@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image, Alert, Animated } from 'react-native';
 import { Audio } from 'expo-av';
-import { useNavigation } from '@react-navigation/native';  // useNavigation import et
+import { useNavigation } from '@react-navigation/native'; 
 
-import levels from '../seviyeler/AnimalGame/Levels'; // Tüm seviyeler buradan gelir
+import levels from '../seviyeler/AnimalGame/Levels'; 
 
 export default function GameScreen() {
     const navigation = useNavigation();  // Navigation hook'u
